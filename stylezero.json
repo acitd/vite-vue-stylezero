@@ -1,0 +1,22 @@
+{
+	"in_directory":"src",
+	"out_directory":"node_modules/stylezero/cache",
+	"extensions":[".vue"],
+	"css_file":"src/assets/stylezero.css",
+	"css_directory":"public/stylezero",
+	"js_directory":"public/stylezero",
+	"css_include":"<style scoped>@import'./public/stylezero/STYLEZERO_ID.css'</style>",
+	"js_include":"<script src=\"/public/stylezero/STYLEZERO_ID.js\"></script>",
+	"replace":{
+		"<stylezero:id>":"STYLEZERO_ID",
+		"<stylezero:time>":"STYLEZERO_TIME",
+		"<stylezero:css>":"STYLEZERO_CSS_INCLUDE",
+		"<stylezero:js>":"STYLEZERO_JS_INCLUDE"
+	},
+	"breakpoints":{
+		"@small-only":"0-640",
+		"@medium-only":"641-1024",
+		"@medium":"641",
+		"@large":"1025"
+	}
+}
