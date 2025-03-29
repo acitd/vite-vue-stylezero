@@ -6,5 +6,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [
     stylezero(),
-    vue()],
+    vue()
+  ],
 })
